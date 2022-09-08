@@ -1,0 +1,82 @@
+.login {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.login_body {
+  flex: 5;
+}
+.update_delete {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2%;
+}
+.update {
+  font-size: 30px;
+  font-weight: 400;
+  color: rgb(228, 52, 52);
+  font-family: serif;
+}
+.delete {
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(228, 52, 52);
+  margin-right: 5%;
+}
+.profile_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-position: center;
+  object-fit: cover;
+  margin-top: 2%;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  font-size: 20px;
+  font-family: serif;
+}
+.profile_import {
+  width: 20px;
+  height: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+.form label {
+  font-size: 25px;
+  margin-top: 1%;
+  color: rgb(5, 5, 83);
+  font-family: serif;
+}
+
+.form input {
+  width: 90%;
+  height: 35px;
+  margin-top: 1%;
+  font-size: 20px;
+  padding: 1rem;
+  font-family: serif;
+  color: rgb(5, 5, 114);
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.formbutton {
+  margin-top: 3%;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  font-family: serif;
+  font-weight: 400;
+  color: rgb(231, 231, 243);
+  background-color: rgb(30, 30, 221);
+  border: none;
+  border-radius: 5%;
+}

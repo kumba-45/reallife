@@ -1,0 +1,18 @@
+.contact{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.contact h2{
+    font-size: 30px;
+    font-family: serif;
+    color: rgb(4, 4, 102);
+}
+.contact p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

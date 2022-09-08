@@ -1,0 +1,6 @@
+.sidebar{
+    display: flex;
+}
+.home{
+    background-color: rgb(241, 241, 245);
+}

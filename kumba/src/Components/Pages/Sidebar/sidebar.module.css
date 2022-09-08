@@ -1,0 +1,71 @@
+.sidebar {
+  flex: 1;
+
+  margin: 0.5%;
+  box-shadow: 2px 2px 2px 2px rgb(127, 140, 145);
+  cursor: pointer;
+  background-color: rgb(183, 241, 241);
+  height:100%;
+
+}
+.sidebar_about {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar_aboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 5%;
+  border-top: 2px solid;
+  width: 250px;
+  height: 30px;
+  color:rgb(3, 3, 71);
+  align-items: center;
+  border-bottom: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: rgb(132, 135, 138);
+}
+.profile {
+  width: 300px;
+  height: 300px;
+  margin-top: 5%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sidebar_description {
+  display: flex;
+  align-items: center;
+  padding: 5%;
+  text-align: justify;
+  color:rgb(7, 7, 61);
+  cursor:grabbing;
+}
+.sidebar_list {
+  display: flex;
+  margin-top: 10%;
+  justify-content: space-around;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+}
+.sidebar_list ul{
+    list-style: none;
+}
+
+
+.sidebar_icon {
+  width: 30px;
+  height: 30px;
+
+
+}
+.sidebar_follow{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
