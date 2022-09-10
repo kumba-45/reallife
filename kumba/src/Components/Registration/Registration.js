@@ -11,7 +11,7 @@ const  Registration = () =>{
 
 
         </div>
-        <h2 className={classes.header}>Registration</h2>
+        
         <div className={classes.form_reg}>
             
             <form className={classes.form_register}>

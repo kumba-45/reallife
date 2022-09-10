@@ -1,0 +1,27 @@
+.about{
+    display:flex;
+    flex-direction: row;
+    justify-items: center;
+
+    margin-top: 10%;
+    background-color: rgb(158, 158, 216);
+    border:none;
+    border-radius: 20%;
+    WIDTH:80%;
+
+}
+.allu{
+    width:100%;
+    height:100%;
+    margin-left: 5%;
+
+    border-radius: 50%;
+}
+.bio p{
+    width:50%;
+    height:70%;
+    text-align: justify;
+    font-family: serif;
+    margin-left: 5%;
+    
+}

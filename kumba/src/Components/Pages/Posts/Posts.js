@@ -11,14 +11,14 @@ const Posts = () => {
     {
       id :1,
       title : "Hyderabad",
-      img : hyderabad ,
+      image : hyderabad ,
       description : "Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops"
       
     },
     {
       id :2,
       title : "Goa",
-      img : goa ,
+      image: goa ,
       description : "Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops"
       
       
@@ -26,21 +26,21 @@ const Posts = () => {
     {
       id:3,
       title : "Madeikeri",
-      img : madeikeri ,
+      image : madeikeri ,
       description : "Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops"
       
     },
     {
       id:4,
       title : "Manali",
-      img : manali,
+      image : manali,
       description : "Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops"
       
     },
     {
       id : 5,
       title : "Taj Mahal",
-      img : taj,
+      image: taj,
       description : "Hyderabad is the capital of southern India's Telangana state. A major center for the technology industry, it's home to many upscale restaurants and shops"
       
     }
@@ -51,7 +51,7 @@ const Posts = () => {
       <div className={classes.post_box}>
         {Images.map((item) => (
           <ul className={classes.posts_box}>
-            <img className={classes.post_image} src={item.img} alt="photo" />
+            <img className={classes.post_image} src={item.image} alt="photo" />
             <ul className={classes.title_description}>
             <p className={classes.post_title}>{item.title}</p>
             <span className={classes.post_description}>{item.description}</span>
